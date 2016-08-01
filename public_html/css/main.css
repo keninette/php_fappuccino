@@ -12,11 +12,8 @@ body, html, #main-container {
 
 footer {   
     height:             40px;   
+    margin-top:         -40px;
     padding-top:        10px;
-    
-    /* sticky footer */
-    bottom:     0;
-    position:   absolute; 
     width:      100%;
 }
 
