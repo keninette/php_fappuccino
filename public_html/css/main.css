@@ -26,12 +26,20 @@ header {
 }
 
 section {
-    
+    background-position: center;
+}
+
+section h3 {
+    font-size: 2.1em;
 }
 
 /* ==========================================================================
    custom ids and classes
    ========================================================================== */
+
+#add-sections {
+    margin-top: 27%;
+}
 
 .beige-font {
     color: #FFF5D6;
@@ -74,7 +82,8 @@ section {
 #heart {
     background-image:   url('../img/heart.png');
     background-repeat:  no-repeat;
-    height:             200px;
+    height:             250px;
+    padding-top:        30px;
 }
 
 .row {
