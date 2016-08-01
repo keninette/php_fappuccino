@@ -1,0 +1,107 @@
+
+
+/* ==========================================================================
+    Author's custom styles
+    native HTML dom elements
+   ========================================================================== */
+
+body, html, #main-container {
+    margin: 0;
+    height: 100%;
+}
+
+footer {   
+    height:             40px;   
+    padding-top:        10px;
+    
+    /* sticky footer */
+    bottom:     0;
+    position:   absolute; 
+    width:      100%;
+}
+
+header { 
+    color: #2E2014;
+    margin-top: 2%;
+}
+
+section {
+    
+}
+
+/* ==========================================================================
+   custom ids and classes
+   ========================================================================== */
+
+.beige-font {
+    color: #FFF5D6;
+} 
+
+.black-background-transparent {
+    background-color:   rgba(0,0,0,0.6);
+}
+
+.center-text {
+    text-align: center;
+}
+
+.custom-font {
+    font-family:    'actonia_hand';
+}
+
+.no-side-padding {
+    padding-left:  0;
+    padding-right: 0;
+}
+
+@font-face {
+    font-family:    'actonia_hand';
+    src: url('../fonts/actoniahand_personal-webfont.eot');
+    src: url('../fonts/actoniahand_personal-webfont.eot?#iefix')    format('embedded-opentype'),
+         url('../fonts/actoniahand_personal-webfont.woff2')         format('woff2'),
+         url('../fonts/actoniahand_personal-webfont.woff')          format('woff'),
+         url('../fonts/actoniahand_personal-webfont.ttf')           format('truetype');
+    font-weight:    normal;
+    font-style:     normal;
+
+}
+
+#main-container {
+    background-image:   url('../img/background.jpg');
+    background-size:    cover;
+}
+
+#heart {
+    background-image:   url('../img/heart.png');
+    background-repeat:  no-repeat;
+    height:             200px;
+}
+
+.row {
+    margin-left:    0 !important;
+    margin-right:   0 !important;
+}
+
+#title {
+    font-size: 10em;
+}
+
+#sub-title {
+    font-size: 3em;
+    margin-top: -1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
