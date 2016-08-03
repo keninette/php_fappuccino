@@ -18,8 +18,12 @@ footer {
 }
 
 header { 
-    color: #2E2014;
-    margin-top: 2%;
+    background-image:       url('../img/background.jpg');
+    background-attachment:  fixed;
+    background-size:        cover;
+    color:                  #2E2014;
+    height:                 650px;
+    padding-top:            2%;
 }
 
 section {
@@ -35,12 +39,33 @@ section h3 {
    ========================================================================== */
 
 #add-sections {
-    margin-top: 27%;
+    background-color:   #2E2014;    /* header titles color */
+    border-color:       #FFF5D6;    /* footer and sections text color */
+    border-top-style:   solid;
+    border-top-width:   5px;
+    height:             auto;
+    padding-bottom:     50px;       /* padding equals footer height +10 */
+    padding-top:        10px;
+}
+
+#add-sections section {
+    height:             250px;
+    padding-top:        30px;
 }
 
 .beige-font {
     color: #FFF5D6;
 } 
+
+#bio {
+    background-image:       url('../img/bio.png');
+    background-position:    top;
+    background-repeat:      no-repeat;
+}
+
+#bio h3:first-child {
+    margin-top:             110px;
+}
 
 .black-background-transparent {
     background-color:   rgba(0,0,0,0.6);
@@ -71,16 +96,22 @@ section h3 {
 
 }
 
-#main-container {
-    background-image:   url('../img/background.jpg');
-    background-size:    cover;
+#handmade {
+    background-image:   url('../img/handmade.png');
+    background-repeat:  no-repeat;
+}
+
+#handmade h3:first-child {
+    margin-top: 230px;
 }
 
 #heart {
     background-image:   url('../img/heart.png');
     background-repeat:  no-repeat;
-    height:             250px;
-    padding-top:        30px;
+}
+
+.justified-text {
+    text-align: justify;
 }
 
 .row {
